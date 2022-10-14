@@ -1,0 +1,74 @@
+/* Formatação da lista */
+ul{
+
+    margin: 0 ;
+    padding: 0;
+
+    list-style: none;
+    width: 50vw;
+    
+
+    display:flex;
+    justify-content: space-around;
+}
+
+ul li{
+
+    width: 100%;
+   
+}
+
+ul li a{
+    
+    display:block;
+
+    width: 100%;
+
+    color: #FFF;
+
+    text-align:center;
+    line-height: 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border-radius: 10px 10px 0px 0px ;
+    border: 1px solid rgb(255, 176, 72);
+    background-color: orangered;
+}
+
+ul li a:hover{
+
+    color: #894a1f;
+    background-color: orange;
+}
+
+
+.paragrafo{
+    
+    text-align: justify;
+    width: 50vw;
+    background-color: orange;
+    
+}
+
+.paragrafo h2{
+    padding: 10px; 
+    margin: 0;
+}
+
+.paragrafo p{
+    padding: 10px; 
+    margin: 0;
+}
+
+
+.atual a{
+
+    color: #894a1f;
+    background-color: orange;
+
+}
+
+
+
+
