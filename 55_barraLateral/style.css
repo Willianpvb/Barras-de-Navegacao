@@ -1,0 +1,53 @@
+/* Formatação da lista */
+ul{
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    width: 20%;
+}
+
+/* Formatação basica dos itens da lista */
+li{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: rgb(255, 196, 0);
+    font-weight: bold ;
+    border-bottom: 1px solid rgb(240, 184, 2);
+}
+
+/* Formatação dos itens quando eles estirem abaixo do cursor */
+li:hover{
+    background-color: orange;
+    cursor:pointer; 
+    border-top: 5px solid rgb(175, 105, 0);
+}
+
+/* Descobertas da vida kkkk
+Da pra ativar herança usando hover*/
+/* Quando o item da lista estiver abaixo do cursor o link mudará de cor */
+li:hover a{
+    color:white;
+}
+
+/* formatação basica dos links */
+ul a{
+    width: 200px;
+    height: 40px;
+    color:#000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+
+}
+
+/* Aqui irá editar o selecionador de cada pagina, e vai deixar pre selecionado a pagina que estiver ativa */
+#home .home, #sobre .sobre, #contato .contato, #servicos .servicos{
+    background-color: rgb(153, 125, 253);
+    
+    cursor:pointer; 
+    border-top: 5px solid rgb(0, 47, 175);
+}
+
+a{
+   padding: 20px 120px 20px 15px;
+}
